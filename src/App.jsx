@@ -1,12 +1,14 @@
 import { useState } from "react";
 import MyComponent1 from "./components/Classbased";
 import Lifecycle from "./components/Lifecycle";
+import Customhooks from "./components/Customhooks";
 function App() {
   return (
     <>
       <MyComponent />
       <MyComponent1 />
       <Lifecycle />
+      <Customhooks />
       </>
   )
 }
