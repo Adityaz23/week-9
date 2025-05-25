@@ -2,6 +2,10 @@ import { useState } from "react";
 import MyComponent1 from "./components/Classbased";
 import Lifecycle from "./components/Lifecycle";
 import Customhooks from "./components/Customhooks";
+import Useisonline from "./components/Useisonline";
+import Usemouse from "./components/Usemouse";
+import Useinterval from "./components/Useinterval";
+import Usedebounce from "./components/Usedebounce";
 function App() {
   return (
     <>
@@ -9,6 +13,10 @@ function App() {
       <MyComponent1 />
       <Lifecycle />
       <Customhooks />
+      <Useisonline />
+      <Usemouse />
+      <Useinterval />
+      <Usedebounce />
       </>
   )
 }

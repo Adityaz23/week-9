@@ -9,7 +9,7 @@ function useMe(n) {
 
   useEffect(() => {
    const value =  setInterval(() => {
-      axios.get("https://jsonplaceholder.typicode.com/todos")
+      axios.get("https://jsonplaceholder.typicode.com/todos/4")
       .then(res => {
         setTodos([res.data]);
         setLoading(false)
